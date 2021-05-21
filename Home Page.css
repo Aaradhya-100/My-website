@@ -1,0 +1,40 @@
+html {
+    background: url("Home.jpg") no-repeat 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+header {
+    height: 100%;
+    width: 100%;
+    background: hidden;
+    position: absolute;
+}
+
+.wrapper {
+    max-width: 100%;
+    width: 1170px;
+    margin: auto;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    float: left;
+    border-radius: 60%;
+}
+
+.h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    overflow: hidden;
+    width: 600px;
+    top: 37%;
+    left: 20%;
+    transform: translate(-50%, -70%);
+    position: absolute;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}

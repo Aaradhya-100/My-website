@@ -1,0 +1,96 @@
+a {
+    display: inline-block;
+    position: relative;
+    padding: 15px 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.nav li {
+    margin-right: 15px;
+    position: block;
+}
+
+.nav li a {
+    box-shadow: rgba(0, 0, 0, 1);
+    border: 1px solid;
+    zoom: 100%;
+}
+
+a:hover {
+    box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white, 0 0 10px white;
+    transition-delay: .09s;
+}
+
+aside {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+aside li {
+    display: inline-block;
+}
+
+aside li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+aside li .out a {
+    background: none;
+}
+
+.nav .out:hover {
+    box-shadow: 0 0 10px rgb(231, 63, 63), 0 0 40px rgb(231, 63, 63), 0 0 80px rgb(231, 63, 63), 0 0 10px rgb(231, 63, 63);
+    transition-delay: .09s;
+    background: rgb(231, 63, 63);
+    color: white;
+    transform: translate(0, 15px);
+    animation-delay: 20ms;
+}
+
+.welcome-text a:hover {
+    box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px whitesmoke, 0 0 10px rgb(79, 248, 164);
+    transition-delay: .09s;
+}
+
+.nav a:hover {
+    background: rgb(255, 255, 255);
+    color: #333;
+    transform: translate(0, -10px);
+    animation-delay: 30ms;
+}
+
+.nav .out {
+    float: right;
+    text-align: right;
+}
+
+.nav .current {
+    background-color: #135068;
+    color: purple;
+}
+
+.nav .current:hover {
+    background: none;
+}
+
+.nav li a:hover {
+    border-radius: 20px;
+    border: none;
+}
+
+.nav li .out:hover {
+    border: none;
+}

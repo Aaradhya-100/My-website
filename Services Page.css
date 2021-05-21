@@ -1,0 +1,7 @@
+html {
+    background: url("Services.jpg") no-repeat 100%;
+}
+
+.aside {
+    backdrop-filter: blur(500px);
+}

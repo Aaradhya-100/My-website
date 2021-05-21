@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+header {
+    height: 100%;
+    width: 100%;
+    background: hidden;
+    position: absolute;
+}
+
+.wrapper {
+    max-width: 100%;
+    width: 1170px;
+    margin: auto;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    float: left;
+    border-radius: 60%;
+}

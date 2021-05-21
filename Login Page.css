@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+    background: url(Entrance.box.jpg) no-repeat;
+    background-size: cover;
+    text-decoration: color white;
+}
+
+.box {
+    width: 280px;
+    overflow: hidden;
+    padding: 40;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: url(Entrance.box.jpg);
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 1) transparent;
+}
+
+.box h1 {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.box h2 {
+    text-transform: uppercase;
+    color: #F5F5F5;
+    font-weight: 700;
+}
+
+.textbox input,
+.password input {
+    border-radius: 24px;
+    border: #ffffffda 3px solid;
+    height: 35px;
+    width: 180px;
+    background: whitesmoke;
+    color: black;
+    outline: none;
+    text-align: center;
+    transform: translate(-1px, 0);
+    padding: 7px 5px;
+}
+
+.password input {
+    transform: translate(0, 5px);
+}
+
+.textbox input:focus,
+.password input:focus {
+    width: 200px;
+    height: 35px;
+    border: darkslategray 2px solid;
+}
+
+.textbox input:hover,
+.password input:hover {
+    background-color: #c7ffe8;
+}
+
+.textbox i {
+    color: #29AB87;
+    float: left;
+    text-align: center;
+    transform: translate(30px, 9px);
+}
+
+.password i {
+    color: #29AB87;
+    float: left;
+    text-align: center;
+    transform: translate(30px, 12px);
+}
+
+.btn {
+    width: 50%;
+    background: none;
+    border: 2px solid #05ff97;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+.btn:hover {
+    background: azure;
+    color: black;
+}
+
+.btnf {
+    width: 80%;
+    background: none;
+    border: 2px solid #05ff97;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+.btnf:hover {
+    background: rgb(15, 146, 207);
+    color: azure;
+    width: 90%;
+}
